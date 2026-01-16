@@ -2,22 +2,23 @@
 using namespace std;
 
 int MaxNumber(int a, int b){
-    return(a > b) ? a : b;       //Функция: возвращает максимальное число
+    return(a > b) ? a : b;     
 }
 
 int main(){
     setlocale(LC_ALL, "ru");
 
     int x;
-    int y;  //Переменные
+    int y; 
 
     cout << "x: ";
-    cin >> x;       //Ввод первого числа
+    cin >> x;       
 
     cout << "y: ";
-    cin >> y;       //Ввод второго числа
+    cin >> y;      
 
-    cout << "Max = " << max(x,y);       //Вывод результата, используя функцию
+    cout << "Max = " << max(x,y);      
 
     return 0;
+
 }
