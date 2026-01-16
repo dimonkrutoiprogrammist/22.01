@@ -10,12 +10,13 @@ int main(){
     cin >> number;      //Ввод числа
 
     if(number % 2 == 0){
-        cout << "Chet";     //Условие: если число делится на 2, то четное
+        cout << "Chet";    
     }
     else{
-        cout << "NeChet";   //Иначе нечетное
+        cout << "NeChet";   
     }
 
 
     return 0;
+
 }
