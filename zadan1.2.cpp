@@ -9,9 +9,10 @@ int main(){
     cout << "Temperature in C*: ";
     cin >> c;                       //Ввод температуры в С*
 
-    int temp = c * 9 / 5 + 32;      //Переменная, в которой считается температура в F*
+    int temp = c * 9 / 5 + 32;      //Подчет температуры
 
     cout << "Temperature in F* = " << temp; //Вывод результата
 
     return 0;
+
 }
