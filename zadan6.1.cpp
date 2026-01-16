@@ -5,18 +5,19 @@ int main(){
     setlocale(LC_ALL, "ru");
 
     int a = 10;
-    int b = 20;         //Переменные
+    int b = 20;       
 
-    cout << a << b << "\n";     //Вывод чисел до результата
+    cout << a << b << "\n";    
 
-    int *ptra = &a;             //Разыменование числа
-    int *ptrb = &b;             //Разыменование числа
+    int *ptra = &a;          
+    int *ptrb = &b;            
 
-    int temp = *ptra;           //Третья переменная: берет значение первой переменной
-    *ptra = *ptrb;              //Первая переменная = вторая переменная
-    *ptrb = temp;               //Вторая переменная = третья переменная
+    int temp = *ptra;         
+    *ptra = *ptrb;             
+    *ptrb = temp;               
 
-    cout << a << b;             //Вывод результата
+    cout << a << b;          
 
     return 0;
+
 }
