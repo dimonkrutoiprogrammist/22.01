@@ -13,7 +13,7 @@ int main(){
     cout << "Matrix:\n";
     
     for(int i = 0; i < 3; i++){
-        for(int j = 0; j < 3; j++){         //Цикл внутри цикла: вывод матрицы
+        for(int j = 0; j < 3; j++){         
             cout << matrix[i][j] << " ";
         }
         cout << endl;
@@ -22,11 +22,12 @@ int main(){
 
     for(int i = 0; i < 3; i++){
         int sum = 0;
-        for(int j = 0; j < 3; j++){         //Цикл внутри цикла: сложение матрицы
+        for(int j = 0; j < 3; j++){        
             sum += matrix[i][j];
         }
-        cout << "Sum = " << sum << "\n";    //Вывод результата
+        cout << "Sum = " << sum << "\n";   
     }
 
     return 0;
+
 }
