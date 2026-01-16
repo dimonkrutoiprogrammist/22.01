@@ -6,14 +6,14 @@ int main() {
     string text;
     
     cout << "Stroka: ";
-    getline(cin, text);         //Ввод строки
+    getline(cin, text);        
     
-    int count = 0;   //Счетчик
-    while (text[count] != '\0') { //Цикл: пока элемент строки не дошел до конца, прибавляем счетчик
+    int count = 0;  
+    while (text[count] != '\0') { 
         count++;
     }
     
-    cout << "Stroka: " << text << " = " << count << " symbols" << endl; //Вывод результата
+    cout << "Stroka: " << text << " = " << count << " symbols" << endl; 
     
     return 0;
 }
