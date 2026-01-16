@@ -10,11 +10,12 @@ int main(){
     cin >> number;      //Ввод числа
 
     if(number % 4 == 0 && number % 100 != 0){
-        cout << number << " visokosniy god";    //Условие: если число делится на 4 и при делении на 100 не равно 0, то високосный
+        cout << number << " visokosniy god";  
     }
     else{
-        cout << number << " ne visokosniy god"; //Иначе не високосный
+        cout << number << " ne visokosniy god"; 
     }
 
     return 0;
+
 }
